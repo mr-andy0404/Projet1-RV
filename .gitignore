@@ -74,3 +74,4 @@ crashlytics-build.properties
 # Generate by system
 *.DS_Store
 *.vsconfig
+._*
