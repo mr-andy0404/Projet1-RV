@@ -1668,7 +1668,7 @@ MonoBehaviour:
   bullet: {fileID: 1444916603316784003, guid: 70f0b6a3231de48c0ab18e1ac6ceb07f, type: 3}
   hauteurMin: 100
   hauteurMax: 300
-  nbAnneaux: 3
+  nbAnneaux: 2
   distanceEntreAnneaux: 1000
   angleMax: 0
   startPos: {x: 0, y: 0, z: 0}
@@ -1908,7 +1908,7 @@ PrefabInstance:
     - target: {fileID: 579955746537863672, guid: c7e56f7febe87d24a91e0d116adb4353,
         type: 3}
       propertyPath: rollControlSensitivity
-      value: 0.25
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 579955746537863672, guid: c7e56f7febe87d24a91e0d116adb4353,
         type: 3}
@@ -1928,7 +1928,7 @@ PrefabInstance:
     - target: {fileID: 579955746537863677, guid: c7e56f7febe87d24a91e0d116adb4353,
         type: 3}
       propertyPath: engineStart
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1698599923131229666, guid: c7e56f7febe87d24a91e0d116adb4353,
         type: 3}

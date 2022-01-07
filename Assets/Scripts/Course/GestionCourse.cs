@@ -252,6 +252,8 @@ public class GestionCourse : MonoBehaviour
                 anneauCourant = listeAnneaux[indiceAnneauCourant];
                 anneauCourant.GetComponent<CollisionAnneau>().target = true;
             }
+
+
         }
     }
 
@@ -264,7 +266,7 @@ public class GestionCourse : MonoBehaviour
         {
             chronoDemarre = false;
             gagne = true;
-            avion.GetComponent<AvionGyroscope2>().bloque = true;
+            avion.GetComponent<BeControlled>().bloque = true;
             float tempsMinimal = nbAnneaux * distanceEntreAnneaux / vitesseMax;
             int scoreTemps = (int)(poidsScoreTemps * score * tempsMinimal / temps);
             affichage.AfficherVictoire(score, temps, scoreTemps);
